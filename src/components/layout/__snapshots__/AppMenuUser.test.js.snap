@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMenuUser renders 1`] = `
+<Fragment>
+  <Button
+    block={false}
+    ghost={false}
+    htmlType="button"
+    loading={false}
+    onClick={[Function]}
+    size="small"
+    type="default"
+  >
+    SIGN IN
+  </Button>
+  <Button
+    block={false}
+    ghost={false}
+    htmlType="button"
+    loading={false}
+    onClick={[Function]}
+    size="small"
+    type="default"
+  >
+    SIGN UP
+  </Button>
+</Fragment>
+`;

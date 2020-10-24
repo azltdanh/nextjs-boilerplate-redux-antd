@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpPage renders 1`] = `
+<ForwardRef(InternalForm)
+  className="app-form"
+  form={
+    Object {
+      "__INTERNAL__": Object {
+        "itemRef": [Function],
+      },
+      "getFieldError": [Function],
+      "getFieldInstance": [Function],
+      "getFieldValue": [Function],
+      "getFieldsError": [Function],
+      "getFieldsValue": [Function],
+      "getInternalHooks": [Function],
+      "isFieldTouched": [Function],
+      "isFieldValidating": [Function],
+      "isFieldsTouched": [Function],
+      "isFieldsValidating": [Function],
+      "resetFields": [Function],
+      "scrollToField": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+      "submit": [Function],
+      "validateFields": [Function],
+    }
+  }
+  initialValues={
+    Object {
+      "prefix": "1",
+    }
+  }
+  labelCol={
+    Object {
+      "sm": Object {
+        "span": 8,
+      },
+      "xs": Object {
+        "span": 0,
+      },
+    }
+  }
+  onFinish={[Function]}
+  requiredMark={false}
+  scrollToFirstError={true}
+  wrapperCol={
+    Object {
+      "sm": Object {
+        "span": 16,
+      },
+      "xs": Object {
+        "span": 24,
+      },
+    }
+  }
+>
+  <FormItem
+    label="Full name"
+    name="fullname"
+    rules={
+      Array [
+        Object {
+          "message": "Please input your full name!",
+          "required": true,
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="Full name"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    label="Phone number"
+    name="phone"
+    rules={
+      Array [
+        Object {
+          "message": "Please input your phone number!",
+          "required": true,
+        },
+      ]
+    }
+  >
+    <Input
+      addonBefore={
+        <FormItem
+          name="prefix"
+          noStyle={true}
+        >
+          <Select
+            bordered={true}
+            choiceTransitionName=""
+            style={
+              Object {
+                "width": 64,
+              }
+            }
+            transitionName="slide-up"
+          >
+            <Option
+              value="1"
+            >
+              +1
+            </Option>
+            <Option
+              value="84"
+            >
+              +84
+            </Option>
+          </Select>
+        </FormItem>
+      }
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    label="Email"
+    name="email"
+    rules={
+      Array [
+        Object {
+          "message": "Please input your valid email!",
+          "required": true,
+          "type": "email",
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="Email"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    hasFeedback={true}
+    label="Password"
+    name="password"
+    rules={
+      Array [
+        Object {
+          "message": "Please input your password!",
+          "required": true,
+        },
+      ]
+    }
+  >
+    <Password
+      action="click"
+      iconRender={[Function]}
+      placeholder="Password"
+      visibilityToggle={true}
+    />
+  </FormItem>
+  <FormItem
+    dependencies={
+      Array [
+        "password",
+      ]
+    }
+    hasFeedback={true}
+    label="Confirm password"
+    name="confirm"
+    rules={
+      Array [
+        Object {
+          "message": "Please confirm your password!",
+          "required": true,
+        },
+        [Function],
+      ]
+    }
+  >
+    <Password
+      action="click"
+      iconRender={[Function]}
+      placeholder="Confirm password"
+      visibilityToggle={true}
+    />
+  </FormItem>
+  <FormItem
+    className="btn-wrapper"
+    wrapperCol={
+      Object {
+        "sm": Object {
+          "offset": 8,
+          "span": 16,
+        },
+        "xs": Object {
+          "offset": 0,
+          "span": 24,
+        },
+      }
+    }
+  >
+    <ButtonSubmit
+      loading={false}
+    >
+      Sign Up
+    </ButtonSubmit>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;

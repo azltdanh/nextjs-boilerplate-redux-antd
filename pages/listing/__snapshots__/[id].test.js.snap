@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingItem renders 1`] = `
+<article>
+  <img
+    alt="KIA MORNING SI 2017"
+    src="https://n1-pstg.mioto.vn/cho_thue_xe_o_to_tu_lai_thue_xe_du_lich_hochiminh/kia_morning_si_2017/p/g/2019/05/04/21/iPCzb0gnXrfcTPXA_e91gQ.jpg"
+    width={360}
+  />
+  <h1>
+    KIA MORNING SI 2017
+  </h1>
+  <Row>
+    <Button
+      block={true}
+      ghost={false}
+      htmlType="submit"
+      loading={false}
+      type="primary"
+    >
+      ĐẶT XE
+    </Button>
+  </Row>
+  <Row>
+    <Col
+      md={12}
+      xs={24}
+    >
+      ĐẶC ĐIỂM
+    </Col>
+    <Col
+      md={12}
+      xs={24}
+    >
+      <Row>
+        <Col
+          span={12}
+        >
+          Số ghế: 
+          4
+        </Col>
+        <Col
+          span={12}
+        >
+          Truyền động: 
+          Số sàn
+        </Col>
+        <Col
+          span={12}
+        >
+          Nhiên liệu: 
+          Xăng
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+  <Row>
+    <Col
+      md={12}
+      xs={24}
+    >
+      MÔ TẢ
+    </Col>
+    <Col
+      md={12}
+      xs={24}
+    >
+      Kia Morning Si MT, xe gia đình sạch sẽ mới 53k km, bảo dưỡng đầy đủ, đầu DVD, camera de, máy lạnh mát sâu, thích hợp cho gia đình nhỏ, xe tiết kiệm xăng.
+    </Col>
+  </Row>
+</article>
+`;

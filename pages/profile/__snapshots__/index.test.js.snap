@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile renders 1`] = `
+<section>
+  <h2>
+    1.User 1
+  </h2>
+</section>
+`;

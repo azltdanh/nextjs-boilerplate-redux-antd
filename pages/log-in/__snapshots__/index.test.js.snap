@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignInPage renders 1`] = `
+<ForwardRef(InternalForm)
+  className="app-form"
+  form={
+    Object {
+      "__INTERNAL__": Object {
+        "itemRef": [Function],
+      },
+      "getFieldError": [Function],
+      "getFieldInstance": [Function],
+      "getFieldValue": [Function],
+      "getFieldsError": [Function],
+      "getFieldsValue": [Function],
+      "getInternalHooks": [Function],
+      "isFieldTouched": [Function],
+      "isFieldValidating": [Function],
+      "isFieldsTouched": [Function],
+      "isFieldsValidating": [Function],
+      "resetFields": [Function],
+      "scrollToField": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+      "submit": [Function],
+      "validateFields": [Function],
+    }
+  }
+  initialValues={
+    Object {
+      "prefix": "1",
+    }
+  }
+  labelCol={
+    Object {
+      "sm": Object {
+        "span": 8,
+      },
+      "xs": Object {
+        "span": 0,
+      },
+    }
+  }
+  onFinish={[Function]}
+  requiredMark={false}
+  scrollToFirstError={true}
+  wrapperCol={
+    Object {
+      "sm": Object {
+        "span": 16,
+      },
+      "xs": Object {
+        "span": 24,
+      },
+    }
+  }
+>
+  <FormItem
+    label="Email"
+    name="email"
+    rules={
+      Array [
+        Object {
+          "message": "Please input your valid email!",
+          "required": true,
+          "type": "email",
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="Email"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    hasFeedback={true}
+    label="Password"
+    name="password"
+    rules={
+      Array [
+        Object {
+          "message": "Please input your password!",
+          "required": true,
+        },
+      ]
+    }
+  >
+    <Password
+      action="click"
+      iconRender={[Function]}
+      placeholder="Password"
+      visibilityToggle={true}
+    />
+  </FormItem>
+  <FormItem
+    className="btn-wrapper"
+    wrapperCol={
+      Object {
+        "sm": Object {
+          "offset": 8,
+          "span": 16,
+        },
+        "xs": Object {
+          "offset": 0,
+          "span": 24,
+        },
+      }
+    }
+  >
+    <ButtonSubmit
+      loading={false}
+    >
+      Sign In
+    </ButtonSubmit>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;

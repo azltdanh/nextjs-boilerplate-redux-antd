@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMenu renders 1`] = `
+<Menu
+  defaultSelectedKeys={
+    Array [
+      "/",
+    ]
+  }
+  mode="horizontal"
+  selectedKeys={
+    Array [
+      "/",
+    ]
+  }
+>
+  <MenuItem
+    key="/how-it-works"
+    onClick={[Function]}
+  >
+    HOW IT WORKS
+  </MenuItem>
+  <MenuItem
+    key="/about-us"
+    onClick={[Function]}
+  >
+    ABOUT US
+  </MenuItem>
+  <MenuItem
+    key="/blogs"
+    onClick={[Function]}
+  >
+    BLOGS
+  </MenuItem>
+  <MenuItem
+    key="/contact-us"
+    onClick={[Function]}
+  >
+    CONTACT US
+  </MenuItem>
+  <MenuItem
+    key="/listing"
+    onClick={[Function]}
+  >
+    LISTING
+  </MenuItem>
+</Menu>
+`;

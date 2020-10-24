@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLogo renders 1`] = `
+<Link
+  href="/"
+>
+  <a>
+    <img
+      alt="Logo"
+      src="test-file-stub"
+    />
+  </a>
+</Link>
+`;

@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLayout renders 1`] = `
+<Layout
+  className="app-layout"
+>
+  <Head>
+    <link
+      href="/favicon.ico"
+      rel="icon"
+    />
+    <meta
+      content="VIBE - A great start to every trip!"
+      name="description"
+    />
+    <meta
+      content="VIBE"
+      name="og:title"
+    />
+    <meta
+      content="summary_large_image"
+      name="twitter:card"
+    />
+    <title>
+      VIBE
+    </title>
+  </Head>
+  <Header>
+    <Row
+      className="app-header"
+      justify="space-between"
+    >
+      <Col>
+        <Row>
+          <Col>
+            <AppLogo />
+          </Col>
+          <Col>
+            <AppMenu />
+          </Col>
+        </Row>
+      </Col>
+      <Col>
+        <AppMenuUser />
+      </Col>
+    </Row>
+  </Header>
+  <Content>
+    <main
+      className="app-content"
+    />
+  </Content>
+  <Footer
+    className="app-footer"
+  >
+    VIBE. All rights reserved. © Copyright 2020
+  </Footer>
+</Layout>
+`;
+
+exports[`AppLayout renders with props 1`] = `
+<Layout
+  className="app-layout"
+>
+  <Head>
+    <link
+      href="/favicon.ico"
+      rel="icon"
+    />
+    <meta
+      content="VIBE - A great start to every trip!"
+      name="description"
+    />
+    <meta
+      content="VIBE - Title"
+      name="og:title"
+    />
+    <meta
+      content="summary_large_image"
+      name="twitter:card"
+    />
+    <title>
+      VIBE - Title
+    </title>
+  </Head>
+  <Header>
+    <Row
+      className="app-header"
+      justify="space-between"
+    >
+      <Col>
+        <Row>
+          <Col>
+            <AppLogo />
+          </Col>
+          <Col>
+            <AppMenu />
+          </Col>
+        </Row>
+      </Col>
+      <Col>
+        <AppMenuUser />
+      </Col>
+    </Row>
+  </Header>
+  <Content>
+    <main
+      className="app-content"
+    />
+  </Content>
+  <Footer
+    className="app-footer"
+  >
+    VIBE. All rights reserved. © Copyright 2020
+  </Footer>
+</Layout>
+`;

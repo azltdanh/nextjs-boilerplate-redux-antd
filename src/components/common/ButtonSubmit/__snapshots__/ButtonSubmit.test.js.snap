@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonSubmit renders 1`] = `
+<Button
+  block={true}
+  ghost={false}
+  htmlType="submit"
+  loading={false}
+  size="large"
+  type="primary"
+>
+  Submit
+</Button>
+`;
+
+exports[`ButtonSubmit renders with props 1`] = `
+<Button
+  block={true}
+  className="css-class"
+  disabled={true}
+  ghost={false}
+  htmlType="submit"
+  loading={true}
+  size="large"
+  type="primary"
+>
+  Submit
+</Button>
+`;

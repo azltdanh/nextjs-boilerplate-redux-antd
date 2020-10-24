@@ -1,0 +1,83 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "alias": {
+        "extensions": [".js"],
+        "map": [
+          ["public", "./public"],
+          ["@", "./src"],
+          ["@assets", "./src/assets"],
+          ["@constants", "./src/constants"],
+          ["@components", "./src/components"],
+          ["@mock", "./src/mock"],
+          ["@reducers", "./src/reducers"],
+          ["@sagas", "./src/sagas"],
+          ["@services", "./src/services"],
+          ["@store", "./src/store"],
+          ["@utils", "./src/utils"]
+        ]
+      }
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": ["react", "react-hooks", "sonarjs"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:sonarjs/recommended",
+    "prettier"
+  ],
+  "ignorePatterns": [],
+  "globals": {
+    "shallow": true,
+    "mount": true,
+    "render": true
+  },
+  "rules": {
+    "object-shorthand": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/setupTests.js",
+          "**/mock/*.*",
+          "**/*.test.*",
+          "**/*.spec.*"
+        ]
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ],
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "sonarjs/prefer-immediate-return": "warn"
+  }
+}

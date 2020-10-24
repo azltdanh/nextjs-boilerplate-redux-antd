@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLoading renders 1`] = `
+<div
+  className="app-loading"
+>
+  <Spin
+    size="default"
+    spinning={true}
+    wrapperClassName=""
+  />
+</div>
+`;

@@ -1,0 +1,15 @@
+# don't ever lint node_modules
+node_modules
+
+# ignore static directories
+build
+dist
+config
+coverage
+public
+src/assets
+
+# ignore config files
+jest.config.js
+jsconfig.json
+next.config.js

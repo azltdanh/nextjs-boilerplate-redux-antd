@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listing renders 1`] = `
+<section>
+  <h2>
+    Listing
+  </h2>
+  <ul>
+    <li
+      key="1"
+    >
+      <Link
+        href="/listing/1"
+      >
+        <a>
+          KIA MORNING SI 2017
+        </a>
+      </Link>
+    </li>
+  </ul>
+</section>
+`;

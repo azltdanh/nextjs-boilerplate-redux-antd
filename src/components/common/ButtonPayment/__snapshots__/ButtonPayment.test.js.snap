@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonPayment renders 1`] = `
+<Row>
+  <Col
+    span={10}
+  >
+    <div
+      className="sub-total"
+    >
+      <b />
+      <small />
+    </div>
+  </Col>
+  <Col
+    span={14}
+  >
+    <Button
+      block={true}
+      ghost={false}
+      htmlType="submit"
+      loading={false}
+      size="large"
+      type="default"
+    >
+      Confirm
+    </Button>
+  </Col>
+</Row>
+`;
+
+exports[`ButtonPayment renders with props 1`] = `
+<Row
+  className="css-class"
+>
+  <Col
+    span={10}
+  >
+    <div
+      className="sub-total"
+    >
+      <b>
+        total
+      </b>
+      <small>
+        sub
+      </small>
+    </div>
+  </Col>
+  <Col
+    span={14}
+  >
+    <Button
+      block={true}
+      disabled={true}
+      ghost={false}
+      htmlType="submit"
+      loading={true}
+      size="large"
+      type="default"
+    >
+      test
+    </Button>
+  </Col>
+</Row>
+`;
